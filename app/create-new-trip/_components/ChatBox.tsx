@@ -334,7 +334,8 @@ if (!result?.data?.trip_plan) {
     }
 
     return (
-        <div className='h-full flex flex-col'>
+        <div className='h-full flex flex-col'> 
+        {/* // <div className="flex flex-col h-[calc(100vh-80px)] sm:h-[calc(100vh-90px)]"> */}
             {/* Messages Area - Scrollable */}
             <div className='flex-1 overflow-y-auto px-4 py-6 scroll-smooth custom-scrollbar'>
                 {messages?.length === 0 ? (
@@ -347,7 +348,7 @@ if (!result?.data?.trip_plan) {
                     <div className='space-y-6'>
                         {messages.map((msg: Message, index) => (
                             msg.role === "user" ? (
-                                <div className='flex justify-end' key={index}>
+                                <div className='flex justify-end' key={index}> 
                                     <div className='max-w-[85%] bg-gradient-to-tr from-primary to-blue-600 text-white px-5 py-3.5 rounded-2xl rounded-br-none shadow-lg shadow-primary/20 text-sm md:text-base leading-relaxed'>
                                         {msg.content}
                                     </div>
