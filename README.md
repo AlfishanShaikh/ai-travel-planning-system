@@ -26,23 +26,17 @@ Based on your chat, the app automatically builds a complete travel itinerary for
 
 ## 📸 Screenshots & UI
 
-*(Add your beautiful screenshots here! Replace the placeholders below with actual image paths once you take screenshots)*
+> ![Hero Section](https://github.com/AlfishanShaikh/ai-travel-planning-system/blob/main/public/hero-section.png?raw=true)
+*The AI Trip Planner clean, conversational interface.*
 
-<div align="center">
-  <img src="https://via.placeholder.com/800x400.png?text=Hero+Section+&+Chat+Interface" alt="Hero Section" width="80%">
-  <br/>
-  <i>The AI Trip Planner clean, conversational interface.</i>
-  <br/><br/>
-  
-  <img src="https://via.placeholder.com/800x400.png?text=Interactive+Map+View" alt="Map View" width="80%">
-  <br/>
-  <i>Synchronous MapLibre GL Integration tracking the itinerary.</i>
-  <br/><br/>
+> ![Map View](https://github.com/AlfishanShaikh/ai-travel-planning-system/blob/main/public/map-view.png?raw=true)
+*Synchronous MapLibre GL Integration tracking the itinerary.*
 
-  <img src="https://via.placeholder.com/800x400.png?text=Generated+Itinerary+Cards" alt="Generated Itinerary" width="80%">
-  <br/>
-  <i>Detailed, chronological day-by-day travel plans generated flawlessly by Groq.</i>
-</div>
+> ![Generated Itinerary](https://github.com/AlfishanShaikh/ai-travel-planning-system/blob/main/public/generated-itinerary.png?raw=true)
+*Detailed, chronological day-by-day travel plans generated flawlessly by Groq.*
+
+> ![Itinerary Cards](https://github.com/AlfishanShaikh/ai-travel-planning-system/blob/main/public/Itinerary.png?raw=true)
+*Itinerary Cards details.*
 
 ---
 
