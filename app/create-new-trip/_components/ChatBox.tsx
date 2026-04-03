@@ -236,10 +236,12 @@ if (!result?.data?.trip_plan) {
                         uid: uid
                     });
                     console.log("Successfully saved to Convex!");
-                    alert("Success! Trip Saved. Redirecting..."); // DEBUG ALERT
+                    
+                    // alert("Success! Trip Saved. Redirecting..."); // DEBUG ALERT
 
                     // Redirect to View Trip Page
-                    router.push('/view-trip/' + newTripId);
+                    // router.push('/view-trip/' + newTripId);
+                    
                 } catch (e: any) {
                     console.error("Error generating/saving trip:", e);
                     alert(`Failed to save trip: ${e.message}`); // ALERT USER
