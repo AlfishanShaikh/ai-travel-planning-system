@@ -95,6 +95,13 @@ function ChatBox() {
     const mode = searchParams?.get('mode');
     const initialized = React.useRef(false);
 
+     // This clears the global memory when the user navigates back to this page
+  useEffect(() => {
+    setTripDetailInfo(null);
+    setTripDetail(null);
+    setTripId(null);
+  }, []); // The empty array [] means this runs exactly ONCE when the component loads
+
     const MODE_PROMPTS = {
         'inspire': "I am open to suggestions! Please inspire me with some amazing destination ideas.",
         'hidden-gems': "I want to discover hidden gems and less touristy places. Can you suggest some?",
