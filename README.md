@@ -12,7 +12,7 @@
 
 *Plan your dream vacation in seconds with advanced LLMs, interactive maps, and beautiful UI.*
 
-
+---
 
 </div>
 
